@@ -1,0 +1,19 @@
+# Site settings
+title: Lipex
+email: lipex@lipex.com.br
+phone: 12 3944-1586 | 12 3944-2333
+description: Somos uma empresa de comercialização e fabricação de produtos de limpeza.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://lipex.com.br" # the base hostname & protocol for your site
+facebook_username: lipex
+
+# Build settings
+markdown: kramdown
+
+exclude: [
+  'node_modules', 
+  'gulpfile.js',
+  'package.json',
+  '_sass',
+  '.sass-cache'
+]
